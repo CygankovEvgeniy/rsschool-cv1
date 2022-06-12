@@ -1,3 +1,15 @@
+# EUGEN TSYHANKOY
+### Front-End developer (in the process of learning)
+
+## **CONTACTS**
+Discord: Eugengomel123#1361
+E-mail: ugoikbprogr@gmail.com
+Adress: Gomel, Belarus
+
+## **ABOUT ME**
+Hi, my name is Eugene.
+At the moment I work as an electronics engineer. There is a great desire to develop in the IT field.
+My interests are: computer equipment and electronics, smart home systems, site construction, cars, motorcycles, bicycle trips.
 
 ## **SKILLS**
 I like to study and learn something new. I like to read books, do physical education,
