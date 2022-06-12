@@ -24,6 +24,7 @@ html {
   margin: 0 auto;
 }
 
+/* Navigation */
 .nav {
 	font-size: 15pt;
 	position: fixed;
@@ -54,23 +55,22 @@ html {
   color: white;
   text-decoration: none;
 }
-/* Headbar */
-.headbar {
+
+/* Bar */
+.bar {
   margin: 50px;
   padding: 50px;
   width: 90%;
   color: white;
   background-color: #2c323d;
 }
-.figure--headbar {
+.figure-bar {
   margin: 0;
   padding: 0;
   width: 100%;
   height: min-content;
   background-color: #343945;
 }
-
-
 
 
 /* Footer */
@@ -82,7 +82,7 @@ footer {
   background-color: var(--text-color);
   color:#343945;
   max-width: 1440px;
-  height: 100px;
+  height: 10px;
   margin: 0 auto;
 }
 
@@ -95,7 +95,7 @@ footer {
   color: var(--bg-color);
 }
 
-.footer-github > a {
+.footer-git > a {
   color: var(--bg-color);
   font-size: 20px;
   font-weight: bold;
