@@ -12,6 +12,13 @@ header {
 html {
   scroll-behavior: smooth; 
 }
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
