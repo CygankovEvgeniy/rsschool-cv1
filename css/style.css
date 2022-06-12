@@ -1,0 +1,107 @@
+body {
+ background-color: #f5f5f5;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+header {
+  max-width: 100%;
+  background-color:gainsboro;
+  color:grey
+}
+html {
+  scroll-behavior: smooth; 
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav {
+	font-size: 15pt;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #f5f5f5;
+}
+	
+.nav_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav a {
+  padding: 14px 10px;
+  line-height: 50px;
+  color: black;
+}
+.nav a:hover {
+  background-color: #bababa;
+}
+.nav a:active {
+  color: white;
+  text-decoration: none;
+}
+/* Headbar */
+.headbar {
+  margin: 50px;
+  padding: 50px;
+  width: 90%;
+  color: white;
+  background-color: #2c323d;
+}
+.figure--headbar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: min-content;
+  background-color: #343945;
+}
+
+
+
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--text-color);
+  color:#343945;
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer-year {
+  width: 100px;
+  text-align: center;
+  font-size: 37px;
+  line-height: 37px;
+  font-weight: bold;
+  color: var(--bg-color);
+}
+
+.footer-github > a {
+  color: var(--bg-color);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-github > a > i {
+  margin-right: 10px;
+  color: var(--bg-color);
+}
+
+.footer-rsschool > a > img {
+  width: 100px;
+  position: relative;
+  top: 3px;
+}
